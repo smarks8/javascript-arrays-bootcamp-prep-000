@@ -19,3 +19,7 @@ function destructivelyAddElementToEndOfArray(array, element){
   array.push(element);
   return array;
 }
+
+accessElementInArray(array, index){
+  return array[index];
+}
